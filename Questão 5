@@ -1,0 +1,14 @@
+include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+    int A = 1; // 1 = verdadeiro
+    int B = 0; // 0 = falso
+    int X;
+
+    X = (A == B); // X recebe o valor de A && B
+    printf ("A \ t B \ t \ X \ n% d \ t% d \ t% d \ n", A, B,! X); // resultado com a negação de X
+
+
+    return 0;
+}
