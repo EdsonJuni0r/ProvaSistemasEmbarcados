@@ -1,0 +1,14 @@
+fn main(){
+    let  a = true; //true=1
+    let  b = false; //false=0
+    let  x;      
+        
+    if a{
+        x = a && b;
+        println!("{}", !x);//resultado com a negação 
+    }
+    else{
+        x = a && b;
+        println!("{}", !x);
+    }
+}
